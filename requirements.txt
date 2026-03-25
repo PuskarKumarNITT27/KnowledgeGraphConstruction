@@ -1,1 +1,11 @@
 pip3 install requests newspaper3k lxml[html_clean]
+pip3 install langchain langchain-core langchain-google-genai
+pip3 install langchain-neo4j langchain-community
+pip3 install pydantic tqdm wikipedia
+pip3 install neo4j
+pip install tiktoken
+
+pip3 install langchain langchain-core langchain-community
+pip3 install langchain-google-genai
+pip3 install langchain-neo4j neo4j
+pip3 install pydantic tqdm python-dotenv wikipedia

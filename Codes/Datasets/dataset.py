@@ -115,17 +115,21 @@ def save_json(data, filename, folder_path):
 
 
 def main():
-    topics = {
-        "indian_politics": "(India politics OR parliament OR BJP OR Congress OR minister)",
-        "crime_law": "(crime OR police OR court OR arrest OR FIR)",
-        "business_economy": "(stock market OR company OR merger OR economy OR RBI)",
-        "disasters_environment": "(flood OR earthquake OR cyclone OR disaster OR NDMA)",
-        "public_health": "(disease OR hospital OR outbreak OR health ministry)",
-        "sports": "(cricket OR football OR match OR player OR tournament)"
-    }
+    # topics = {
+    #     "indian_politics": "(India politics OR parliament OR BJP OR Congress OR minister)",
+    #     "crime_law": "(crime OR police OR court OR arrest OR FIR)",
+    #     "business_economy": "(stock market OR company OR merger OR economy OR RBI)",
+    #     "disasters_environment": "(flood OR earthquake OR cyclone OR disaster OR NDMA)",
+    #     "public_health": "(disease OR hospital OR outbreak OR health ministry)",
+    #     "sports": "(cricket OR football OR match OR player OR tournament)"
+    # }
 
+    topics = {
+        "indian_politics": "(India politics OR parliament OR BJP OR Congress OR minister)"
+    }
+    
     folder_path = "./Codes/Datasets/Data"
-    max_records = 30
+    max_records = 300
 
     for name, query in topics.items():
         print("=" * 40)
